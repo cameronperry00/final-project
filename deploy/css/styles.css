@@ -347,24 +347,23 @@ textarea {
 header {
   background-color: #fff;
   text-align: center;
-  padding: 10px; }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #114b85; }
-  ul li {
-    float: left; }
-  ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none; }
-  ul li a:hover {
-    background-color: #0a2b4d; }
+  padding: 0px; }
+  header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #114b85; }
+    header ul li {
+      float: left; }
+    header ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none; }
+    header ul li a:hover {
+      background-color: #0a2b4d; }
 
 /* =============
     Footer
@@ -372,3 +371,37 @@ ul {
 /* =============
     Section-1
 ============= */
+.container {
+  position: relative;
+  font-family: Arial; }
+
+.text-block {
+  position: absolute;
+  bottom: 270px;
+  left: 20px;
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  padding-right: 50px; }
+
+/* =============
+    Section-2
+============= */
+#section-2 {
+  background-color: #fff;
+  text-align: center;
+  padding: 0px; }
+  #section-2 ul {
+    list-style-type: none;
+    margin: 30;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff; }
+    #section-2 ul ul {
+      float: left; }
+    #section-2 ul li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none; }
