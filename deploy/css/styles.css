@@ -344,26 +344,31 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background-color: #fff;
+  text-align: center;
+  padding: 10px; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #114b85; }
+  ul li {
+    float: left; }
+  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+  ul li a:hover {
+    background-color: #0a2b4d; }
+
 /* =============
     Footer
 ============= */
 /* =============
     Section-1
 ============= */
-#section-1 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #114b85;
-  /* Change the link color to #111 (black) on hover */ }
-  #section-1 li {
-    float: left; }
-  #section-1 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none; }
-  #section-1 li a:hover {
-    background-color: #0a2b4d; }
