@@ -7,12 +7,26 @@
   font-family: Arial;
 }
 
+#container {
+  padding: 0px;
+}
+
+.content {
+  height: 100px;
+  background-color: #E64132;
+  
+  @media screen and (max-width: 1000px) { 
+    background-color: #E64132;
+  }
+  
+}
+
 .text-block {
   position: absolute;
   bottom: 270px;
   left: 20px;
   background-color: white;
   color: black;
-  padding-left: 20px;
+  padding-left: 9px;
   padding-right: 50px;
 }
