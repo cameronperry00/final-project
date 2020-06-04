@@ -41,6 +41,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/section-2/flip.jpg": {
+		"ft": 16384,
+		"iS": 609708,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-2/flip.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-3/lottery.jpg": {
+		"ft": 16384,
+		"iS": 532684,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/lottery.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,

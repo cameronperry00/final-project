@@ -5,28 +5,39 @@
 .container {
   position: relative;
   font-family: Arial;
+
+  .text-block {
+    position: absolute;
+    bottom: 270px;
+    left: 20px;
+    background-color: white;
+    color: black;
+    padding-left: 9px;
+    padding-right: 50px;
+  }
 }
 
 #container {
-  padding: 0px;
+  .column {
+  float: left;
+  width: 33.33%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
-.content {
-  height: 100px;
-  background-color: #E64132;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
   
-  @media screen and (max-width: 1000px) { 
-    background-color: #E64132;
+  .content {
+    height: 100px;
+     
+    @media screen and (max-width: 1000px) { 
+      background-color: #E64132;
+    }
   }
-  
-}
-
-.text-block {
-  position: absolute;
-  bottom: 270px;
-  left: 20px;
-  background-color: white;
-  color: black;
-  padding-left: 9px;
-  padding-right: 50px;
 }
