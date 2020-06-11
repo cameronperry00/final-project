@@ -243,9 +243,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/dev/scss/sections/_footer.css",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "/deploy/css/styles.css",
+		"oF": 3,
 		"oS": 0,
 		"uL": 1
 		},

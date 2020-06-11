@@ -368,6 +368,10 @@ header {
 /* =============
     Footer
 ============= */
+.container .footer {
+  text-align: center;
+  padding-top: 50px; }
+
 /* =============
     Section-1
 ============= */
@@ -390,7 +394,8 @@ header {
     width: 33.33%;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: center; }
+    text-align: center;
+    color: white; }
   #container .row:after {
     content: "";
     display: table;
@@ -431,8 +436,23 @@ ul {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: auto;
   cursor: pointer; }
+
+.Section {
+  width: 100%;
+  padding: 20px 0;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 20px; }
+
+.Gymnastics {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  text-align: left;
+  padding-left: 120px;
+  border: 2px solid #2b63ac; }
 
 /* =============
     Section-3
@@ -444,4 +464,6 @@ ul {
 
 #Lottery {
   float: right;
-  padding-right: 60px; }
+  padding-right: 100px;
+  padding-left: 30px;
+  border: 2px solid #2b63ac; }
